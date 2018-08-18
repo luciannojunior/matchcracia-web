@@ -26,6 +26,8 @@
   <link rel="stylesheet" type="text/css" href="assets/css/main.css">
   <!-- Responsive Style -->
   <link rel="stylesheet" type="text/css" href="assets/css/responsive.css">
+  <!-- Statistics css -->
+  <link rel="stylesheet" type="text/css" href="assets/css/statistics.css">
 
 </head>
 
@@ -137,6 +139,44 @@
     </div>
   </section>
   <!-- Intro Section End -->
+
+  <section id="services" class="section-padding">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-md-8 col-lg-8 col-xs-12 text-center">
+            <h2 class="section-title">
+              Sobre os projetos de lei
+            </h2>
+            <!-- carousel -->
+            <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+              <ol class="carousel-indicators">
+                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+              </ol>
+              <div id="container-cards-carousel" class="carousel-inner">
+                <div class="carousel-item active">
+                    <div>
+                      Um projeto de lei é um tipo de proposta normativa submetida à deliberação de um órgão legislativo, com o objetivo de produzir uma lei. Normalmente, um projeto de lei depende ainda da aprovação ou veto pelo Poder Executivo antes de entrar em vigor.
+                    </div>
+                </div>
+                <div class="carousel-item">
+                  <div>
+                    Em 2017 das 2600 PLs cerca de 88 foram arquivadas e em contra partida apenas 19 foram transformadas em normas juridicas     
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <div>
+                    Em 2018 foram apresentados cerca de 6 projetos de lei (PL) por dia, totalizando 1300 (até 17/08)
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- End carousel -->
+          </div>
+        </div>
+      </div>
+  </section>
 
   <section id="services" class="section-padding">
     <div class="container">
@@ -265,14 +305,22 @@
             <div>
               <div class="row justify-content-md-center">
                 <div class="col-md-1">
-                  <img src="assets/img/gmail.png" alt="" class="img-fluid">
+                  <img src="assets/img/ideia.png" alt="" class="img-fluid">
                 </div>
               </div>
               <h2 class="section-title">
                 Coisas que descobrimos
               </h2>
               <div class="section-info">
-                Aqui vão as estatísticas
+                <div id="wordcloud-container">
+                  <div id="wordcloud"></div>
+                  <div class="separador-container">
+                    <div class="separador"></div>
+                  </div>
+                  <h5>
+                    Palavras chave das propostas apresentadas
+                  </h5>
+                </div>
             </div>
           </div>
         </div>
@@ -634,8 +682,11 @@
   <script src="assets/js/form-validator.min.js"></script>
   <script src="assets/js/contact-form-script.min.js"></script>
   <script src="assets/js/map.js"></script>
-  <script type="text/javascript" src="//maps.googleapis.com/maps/api/js?key=AIzaSyCsa2Mi2HqyEcEnM1urFSIGEpvualYjwwM">
-  </script>
+  <script src="assets/js/d3.min.js"></script>
+  <script src="assets/js/d3.layout.cloud.js"></script>
+  <script src="assets/js/d3.word.cloud.js"></script>
+  <script src="assets/js/statistics.js"></script>
+  <!-- <script type="text/javascript" src="//maps.googleapis.com/maps/api/js?key=AIzaSyCsa2Mi2HqyEcEnM1urFSIGEpvualYjwwM"> </script> -->
 
 </body>
 
