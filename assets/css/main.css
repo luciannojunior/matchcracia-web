@@ -562,7 +562,7 @@ a.back-to-top:hover, a.back-to-top:focus {
   display: flex;
   align-items: center;
 }
-  
+
 /* ==========================================================================
 3. Hero Area
 ========================================================================== */
@@ -901,6 +901,12 @@ a.back-to-top:hover, a.back-to-top:focus {
 
 /* Team Item */
 #team {
+  background: #fff;
+}
+#email {
+  background: #f2f2f2;
+}
+#stats {
   background: #f2f2f2;
 }
 
