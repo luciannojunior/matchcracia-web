@@ -2,3 +2,22 @@
     vertical-align: middle;
     margin: auto;
 }
+
+#wordcloud-container {
+    text-align: center;
+    margin: auto;
+    width: 800px;
+    height: 400px;
+}
+
+.separador-container {
+    width: 100%;
+    height: 3vh;
+}
+
+.separador {
+    margin: auto;
+    width: 6%;
+    height: 1px;
+    background-color: black;
+}
