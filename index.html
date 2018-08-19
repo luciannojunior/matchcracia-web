@@ -29,6 +29,7 @@
   <!-- Statistics css -->
   <link rel="stylesheet" type="text/css" href="assets/css/statistics.css">
 
+  <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/modal-video@2.4.2/css/modal-video.min.css">
 </head>
 
 <body>
@@ -235,7 +236,8 @@
             Veja funcionando!
           </h2>
           <div class="section-info">
-            <a href="#contact" class="btn btn-common">Acesse o aplicativo</a>
+              <button class="btn btn-common js-modal-btn" data-video-id="mMWAGbWvSLU">Acesse o aplicativo</button>
+            <!-- <a href="#contact" class="btn btn-common" class="js-modal-btn" data-video-id="mMWAGbWvSLU">Acesse o aplicativo</a> -->
           </div>
         </div>
       </div>
@@ -671,6 +673,10 @@
   <script src="assets/js/bootstrap.min.js"></script>
   <script src="assets/js/vegas.min.js"></script>
   <script src="assets/js/jquery.countdown.min.js"></script>
+  <script src="assets/js/d3.min.js"></script>
+  <script src="assets/js/d3.layout.cloud.js"></script>
+  <script src="assets/js/d3.word.cloud.js"></script>
+  <script src="assets/js/statistics.js"></script>
   <script src="assets/js/menu.js"></script>
   <script src="assets/js/classie.js"></script>
   <script src="assets/js/scrolling-nav.js"></script>
@@ -681,12 +687,11 @@
   <script src="assets/js/main.js"></script>
   <script src="assets/js/form-validator.min.js"></script>
   <script src="assets/js/contact-form-script.min.js"></script>
-  <script src="assets/js/d3.min.js"></script>
-  <script src="assets/js/d3.layout.cloud.js"></script>
-  <script src="assets/js/d3.word.cloud.js"></script>
-  <script src="assets/js/statistics.js"></script>
-  <!-- <script type="text/javascript" src="//maps.googleapis.com/maps/api/js?key=AIzaSyCsa2Mi2HqyEcEnM1urFSIGEpvualYjwwM"> </script> -->
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/modal-video@2.4.2/js/jquery-modal-video.min.js"> </script>
 
+  <script>
+    $(".js-modal-btn").modalVideo();
+  </script>
 </body>
 
 </html>
