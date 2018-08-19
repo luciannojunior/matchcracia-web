@@ -1311,7 +1311,8 @@ a.back-to-top:hover, a.back-to-top:focus {
 #container-cards-carousel div {
   height: 30vh;
   width: 100%;
-  text-align: center;
+  background-image: url("../img/slide.jpg");
+  background-size: cover;
   background-color: #f2f2f2;
 }
 
@@ -1319,7 +1320,7 @@ a.back-to-top:hover, a.back-to-top:focus {
   display: table-cell;
   vertical-align: middle;
   padding: 0 7vw;
-  font-size: 3vh;
+  font-size: 3vh;  
 }
 
 .carousel-indicators li {
@@ -1327,4 +1328,23 @@ a.back-to-top:hover, a.back-to-top:focus {
 }
 .carousel-indicators .active {
   background-color: rgb(46, 46, 46);
+}
+
+.carousel-text {
+  color: #fff;
+  text-align: justify;
+}
+.carousel-superior {
+  width: 40%;
+  height: 200px;
+  text-align: center;
+  background: #000;
+  font-size: 30px;
+  color: #fff;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
 }
