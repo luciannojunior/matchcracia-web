@@ -1332,6 +1332,7 @@ h1, h2, h3 {
 }
 
 h4 {
+  font-size: 18px;
   font-weight: 700;
   font-family: 'Montserrat', sans-serif;
 }
@@ -2079,7 +2080,6 @@ a.back-to-top:hover, a.back-to-top:focus {
 }
 
 .subscribe-form h4 {
-  font-size: 18px;
   margin-bottom: 30px;
   font-weight: 500;
 }
